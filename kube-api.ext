@@ -1,0 +1,5 @@
+keyUsage=digitalSignature,keyEncipherment
+extendedKeyUsage=serverAuth,clientAuth
+basicConstraints=CA:false
+#subjectAltName=DNS:10.32.0.1,DNS:10.240.0.10,DNS:10.240.0.11,DNS:10.240.0.12,DNS:35.188.144.38,DNS:127.0.0.1,DNS:kubernetes.default
+subjectAltName=IP:10.32.0.1,IP:10.240.0.10,IP:10.240.0.11,IP:10.240.0.12,IP:35.188.144.38,IP:127.0.0.1,DNS:kubernetes.default

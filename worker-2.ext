@@ -1,0 +1,4 @@
+keyUsage=digitalSignature,keyEncipherment
+extendedKeyUsage=clientAuth
+basicConstraints=CA:false
+subjectAltName=DNS:worker-2,DNS:104.197.15.25,DNS:10.240.0.22
